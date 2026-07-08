@@ -14,4 +14,5 @@ y = 3.14        # Float (float)
 name = "John"   # String (str)
 is_student = True  # Boolean (bool)
 
-print(a,b,c,d,x,y,name,is_student, sep="\n")
+for i in (a,b,c,d,x,y,name,is_student):
+    print(i, "\t", type(i))
