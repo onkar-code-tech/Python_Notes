@@ -3,10 +3,7 @@
 '''Creating a variable is like creating a placeholder in memory and assigning it some value.'''
 '''You create a variable by assigning a value using the '=' operator'''
 # For example:
-a = "onkar"
-b = 20
-c = True
-d = None
+a,b,c,d = "onkar",20,True,None
 
 # Variable Types
 '''Python automatically determines the type of data:'''
